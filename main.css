@@ -1,0 +1,202 @@
+body, ul {
+    margin: 0;
+    padding: 0px;
+}
+
+body{
+    background-color: #222222;
+    
+}
+
+nav {
+    background-color: #000000;
+    opacity: 0.5;
+    position: fixed;
+    width : 100%;
+    padding-top: 0px;
+    overflow: hidden;
+}
+
+nav ul {    
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 50px;
+}
+
+nav ul li{
+    margin: 0 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #f6f6fb;
+    transition: color 0.3s;
+    font-size: 30px;
+
+}
+
+nav ul li a:hover{
+    background-color: #f5eeee00;
+  color: rgb(255, 254, 254);
+}
+
+nav ul li a:active{
+    background-color: #f0f0f000;
+  color: white;
+}
+
+div{
+    padding: 80px 0;
+    text-align: center;
+    font-size: 24px;
+    color: aliceblue;
+}
+
+.about-cont{
+    width:1200px;
+}
+
+.about-cont img{
+    height: 275px;
+    width: 425px;
+    float: left;
+    padding-left: 10px ;
+    padding-right: 20px;
+}
+
+.about-cont text{
+    vertical-align: right; 
+    justify-content: right;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.about h1{
+    margin-top: 40px;
+}
+
+#skill h1{
+    color: #f6f6fb;
+    font-size: 40px;
+}
+
+#skill{
+    border: 5px solid #808080;
+    width: 800px;
+  padding: 10px;
+  background-image: url("bg4.jpeg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+#skillbackground{
+    background-image: url("bg1.jpg");
+}
+
+.skill{    
+    display: flex;
+    flex-direction: row;
+    justify-content: top;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#about{
+    background-image: url("bg3.jpeg") ;
+}
+
+#project{
+    background-image: url("bg2.jpeg");
+}
+
+.background{
+    background-image: url("bg1.jpg");
+}
+
+.logo{
+    display: inline-block;
+    margin: 15px; /* margin: 20px was off */
+    height: 60px;
+    width: auto; /* correct proportions to specified height */
+    border-radius: 50%; /* makes it a circle */
+}
+
+/* @keyframes fadeIn {
+    0%,100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+} */
+
+/* @keyframes size {
+    0%, 100%{
+        font-size: 20px;
+    }
+    50%{
+        font-size: 40px;
+        font-weight: bold;
+    }
+} */
+
+#contact{
+    background-image: url("bg4.jpeg");
+}
+
+.home h3{
+    /* animation: fadeIn 3s ease-in-out infinite; */
+    width: 400px;
+  padding: 10px;
+  border: 5px solid #808080;
+  background-image: url("homebck.jpg");
+  position: relative;
+  left: 33%;
+  margin: 0;
+  size: 5%;
+  font-size: 25px;
+
+}
+
+.scrollmenu{
+    white-space: wrap;
+}
+  
+.scrollmenu a{
+    display: inline-block;
+    color: white;
+    /* text-align: center; */
+    padding: 13px;
+    text-decoration: none;
+}
+
+.typed-out{
+    overflow: hidden;
+    border-right: .15em solid rgba(232, 221, 202, 0.392);
+    white-space: nowrap;
+    /* font-size: 1.6rem; */
+    width: 0;
+    animation: typing 4s forwards;
+  }
+
+.container{
+    display: inline-block;
+}
+  
+@keyframes typing{
+    from { width: 0 }
+    to { width: 100% }
+}
+  
